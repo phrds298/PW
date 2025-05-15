@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p>Enunciado: Crie dois input numéricos e um botão. quando clicado, deve exibir a 
+        soma de dois números </p>
+        <input type="number" id="n1">
+        <input type="number" id="n2">
+        <button onclick="somar()">somar</button>
+        <script>
+            function somar(){
+                let n1= Number(document.getElementById("n1").value);
+                let n2= Number(document.getElementById("n2").value);
+                alert("somar: "+ (n1+n2)); 
+            }
+        </script>
+    
+</body>
+</html>

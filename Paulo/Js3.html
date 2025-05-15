@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+</head>
+<body>
+    <h2> Enunciado</h2>
+
+    <p>Crie um campo de texto para digitar seu nome e um botão. 
+        Quando clicar, deve aparecer um aparecer um alerta: "Olá, [nome digitado]!" </p>
+        <input type="text" id="nome" placeholder="Digite aqui o seu nome">
+        <button sonclick="saudação()"> Enviar</buttom>
+        <script>
+            function saudação(){
+                let nome = document.getElementByid('nome').value;
+                alert('Olá ' + nome + '!');
+            }
+        </script>
+    
+</body>
+</html>

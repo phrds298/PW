@@ -1,0 +1,80 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #111; /* Preto como cor de fundo principal */
+    color: #eee; /* Cinza claro para contraste no texto */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #e53935; /* Vermelho vibrante para o cabeçalho */
+    color: #fff; /* Texto branco no cabeçalho */
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 5px solid #b71c1c; /* Vermelho mais escuro para detalhe */
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px #000; /* Sombra preta no texto para destaque */
+}
+
+header p {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #ddd; /* Um cinza um pouco mais claro para a descrição */
+}
+
+section {
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 800px;
+    background-color: #222; /* Preto mais claro para as seções */
+    color: #eee;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Sombra preta mais forte */
+    border: 1px solid #333; /* Adicionando uma borda sutil */
+}
+
+section h2 {
+    font-size: 2em;
+    color: #e53935; /* Vermelho para os títulos das seções */
+    border-bottom: 3px solid #e53935;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+#habilidades ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+#habilidades li {
+    background-color: #333; /* Cinza escuro para os itens de habilidade */
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    border: 1px solid #555; /* Borda sutil nos itens */
+}
+
+#contato p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+#contato a {
+    color: #e53935;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contato a:hover {
+    text-decoration: underline;
+    color: #f44336; /* Um tom de vermelho um pouco mais claro no hover */
+}
